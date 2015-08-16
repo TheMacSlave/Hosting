@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>[something]Hosting</title>
+    <title>Champion Servers</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -44,7 +44,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">[something] Hosting</a>
+              <a class="navbar-brand" href="#">Champion Servers</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
@@ -95,8 +95,8 @@
           <img class="first-slide" src="USA.png" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>[something] Hosting</h1>
-              <p>From VPS to VPN and Minecraft to Terraria, [something] Hosting has it all. We can provide you with with affordable hosting solutions to fit your needs. </p>
+              <h1>Champion Servers</h1>
+              <p>From VPS to VPN and Minecraft to Terraria, Champion Servers has it all. We can provide you with with affordable hosting solutions to fit your needs. </p>
             <p><a class="btn btn-lg btn-primary" href="#" role="button">See plans</a></p>
             </div>
           </div>
@@ -178,13 +178,48 @@
         <!-- START THE FEATURETTES -->
       <hr class="featurette-divider" id="MC">
       <div class="row featurette">
-      	<h1 style="text-align:center;" id="mcswitch">Standard Minecaft Servers</h1>
-      	<div class="onoffswitch" style="margin:auto;">
-    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch">
-    <label class="onoffswitch-label" for="myonoffswitch">
-        <span class="onoffswitch-inner"></span>
-        <span class="onoffswitch-switch"></span>
-    </label>
+      	<h1 style="text-align:center;" class="reg">Minecaft Servers
+      	<div class="btn-group" style="margin:auto;">
+        <a class="btn btn-primary" style="display:block;width:150px" id="Standard" onclick="norm()">Standard</a>
+        <a class="btn btn-default"style="display:block;width:150px" id="Extreme" onclick="Ex()">Extreme</a>
+        </h1>
+        <script>
+function Ex() {
+  document.getElementById("Extreme").className =
+   document.getElementById("Extreme").className.replace
+      ( "btn-default" , 'btn-primary' )
+        document.getElementById("Standard").className =
+   document.getElementById("Standard").className.replace
+      ( "btn-primary" , 'btn-default' )
+    document.getElementById(".5price").innerHTML = "$4 / month";
+    document.getElementById("1price").innerHTML = "$8 / month";
+    document.getElementById("2price").innerHTML = "$16 / month";
+    document.getElementById("3price").innerHTML = "$24 / month";
+    document.getElementById("4price").innerHTML = "$32 / month";
+    document.getElementById("5price").innerHTML = "$40 / month";
+    document.getElementById("6price").innerHTML = "$48 / month";
+    document.getElementById("7price").innerHTML = "$56 / month";
+}
+</script>
+<script>
+function norm() {
+  document.getElementById("Standard").className =
+   document.getElementById("Standard").className.replace
+      ( "btn-default" , 'btn-primary' )
+        document.getElementById("Extreme").className =
+   document.getElementById("Extreme").className.replace
+      ( "btn-primary" , 'btn-default' )
+    document.getElementById(".5price").innerHTML = "$2 / month";
+    document.getElementById("1price").innerHTML = "$4 / month";
+    document.getElementById("2price").innerHTML = "$8 / month";
+    document.getElementById("3price").innerHTML = "$12 / month";
+    document.getElementById("4price").innerHTML = "$16 / month";
+    document.getElementById("5price").innerHTML = "$20 / month";
+    document.getElementById("6price").innerHTML = "$24 / month";
+    document.getElementById("7price").innerHTML = "$28 / month";
+}
+</script>
+</div>
 </div>
           <div class="container marketing">
             <div class="container">
@@ -197,7 +232,7 @@
 						<h3>512MB RAM</h3>
 						</div>
 						<div class="panel-body text-center">
-							<p class="lead" style="font-size:40px"><strong>$2 / month</strong></p>
+							<p class="lead" style="font-size:40px" ><strong id=".5price">$2 / month</strong></p>
 						</div>
 						<ul class="list-group list-group-flush text-center">
 							<li class="list-group-item"><i class="icon-ok text-danger"></i>6 Player Slots </li>
@@ -221,7 +256,7 @@
 						<h3>1024MB RAM</h3>
 						</div>
 						<div class="panel-body text-center">
-							<p class="lead" style="font-size:40px"><strong>$4 / month</strong></p>
+							<p class="lead" style="font-size:40px"><strong  id="1price">$4 / month</strong></p>
 						</div>
 						<ul class="list-group list-group-flush text-center">
 							<li class="list-group-item"><i class="icon-ok text-info"></i>12 Player slots</li>
@@ -245,7 +280,7 @@
 						<h3>2048MB RAM</h3>
 						</div>
 						<div class="panel-body text-center">
-							<p class="lead" style="font-size:40px"><strong>$8 / month</strong></p>
+							<p class="lead" style="font-size:40px"><strong id="2price">$8 / month</strong></p>
 						</div>
 						<ul class="list-group list-group-flush text-center">
 							<li class="list-group-item"><i class="icon-ok text-success"></i>24 Player slots</li>
@@ -269,7 +304,7 @@
 						<h3>3072MB RAM</h3>
 						</div>
 						<div class="panel-body text-center">
-							<p class="lead" style="font-size:40px"><strong>$12 / month</strong></p>
+							<p class="lead" style="font-size:40px"><strong id="3price">$12 / month</strong></p>
 						</div>
 						<ul class="list-group list-group-flush text-center">
 							<li class="list-group-item"><i class="icon-ok text-success"></i>36 Player slots</li>
@@ -293,7 +328,7 @@
 						<h3>4096MB RAM</h3>
 						</div>
 						<div class="panel-body text-center">
-							<p class="lead" style="font-size:40px"><strong>$16 / month</strong></p>
+							<p class="lead" style="font-size:40px" ><strong id="4price">$16 / month</strong></p>
 						</div>
 						<ul class="list-group list-group-flush text-center">
 							<li class="list-group-item"><i class="icon-ok text-success"></i>48 Player Slots</li>
@@ -317,7 +352,7 @@
 						<h3>5120MB RAM</h3>
 						</div>
 						<div class="panel-body text-center">
-							<p class="lead" style="font-size:40px"><strong>$20 / month</strong></p>
+							<p class="lead" style="font-size:40px"><strong id="5price">$20 / month</strong></p>
 						</div>
 						<ul class="list-group list-group-flush text-center">
 							<li class="list-group-item"><i class="icon-ok text-success"></i>60 Player slots</li>
@@ -341,7 +376,7 @@
 						<h3>7168MB RAM</h3>
 						</div>
 						<div class="panel-body text-center">
-							<p class="lead" style="font-size:40px"><strong>$24 / month</strong></p>
+							<p class="lead" style="font-size:40px"><strong  id="6price">$24 / month</strong></p>
 						</div>
 						<ul class="list-group list-group-flush text-center">
 							<li class="list-group-item"><i class="icon-ok text-success"></i>72 Player slots</li>
@@ -365,7 +400,7 @@
 						<h3>8192MB RAM</h3>
 						</div>
 						<div class="panel-body text-center">
-							<p class="lead" style="font-size:40px"><strong>$28 / month</strong></p>
+							<p class="lead" style="font-size:40px"><strong id="7price">$28 / month</strong></p>
 						</div>
 						<ul class="list-group list-group-flush text-center">
 							<li class="list-group-item"><i class="icon-ok text-success"></i>96 Player Slots</li>
@@ -389,7 +424,7 @@
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2015, [something] Hosting LLC. &middot; <a href="#Privacy">Privacy</a> &middot; <a href="#Terms">Terms</a></p>
+        <p>&copy; 2015, Champion Servers LLC. &middot; <a href="#Privacy">Privacy</a> &middot; <a href="#Terms">Terms</a></p>
       </footer>
 
     </div><!-- /.container -->
@@ -406,3 +441,4 @@
     <script src="js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
+
