@@ -51,7 +51,7 @@ PRICING STYLES
     margin-top: 50px;
     text-align: center;
     box-shadow: 0 0 5px rgba(0, 0, 0, .5);
-    color: #fff;
+    color: ##5a5a5a;
     line-height: 30px;
 }
 
@@ -78,7 +78,7 @@ PRICING STYLES
         padding: 40px 20px 20px 20px;
         font-size: 60px;
         font-weight: 900;
-        color: #000000;
+        color: #5a5a5a;
     }
 
         .db-pricing-eleven .price small {
