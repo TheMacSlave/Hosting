@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Champion Servers</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+     <link href="css/switch.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Champion Servers</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#VPN">VPN Services</a></li>
+                    <li><a href="#VPS">VPS Services</a></li>
+                    <li><a href="#Voice">Voice Services</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Game Servers</li>
+                    <li><a href="plans#MC">Minecraft Servers</a></li>
+                    <li><a href="#Terraria">Terraria Servers</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Panels <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">VPS Panel</a></li>
+                    <li><a href="#">Terraria Panel</a></li>
+                    <li><a href="#">Minecraft Panel</a></li>
+                    <li><a href="#">TeamSpeak Panel</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+        <!-- START THE FEATURETTES -->
+      <hr class="featurette-divider" id="MC">
+      <div class="row featurette">
+      	<h1 style="text-align:center;" class="reg">Minecaft Servers
+      	<div class="btn-group" style="margin:auto;">
+        <a class="btn btn-primary" style="display:block;width:150px" id="Standard" onclick="norm()">Standard</a>
+        <a class="btn btn-default"style="display:block;width:150px" id="Extreme" onclick="Ex()">Extreme</a>
+        </h1>
+        <script>
+function Ex() {
+  document.getElementById("Extreme").className =
+   document.getElementById("Extreme").className.replace
+      ( "btn-default" , 'btn-primary' )
+        document.getElementById("Standard").className =
+   document.getElementById("Standard").className.replace
+      ( "btn-primary" , 'btn-default' )
+    document.getElementById(".5price").innerHTML = "$4 / month";
+    document.getElementById("1price").innerHTML = "$8 / month";
+    document.getElementById("2price").innerHTML = "$16 / month";
+    document.getElementById("3price").innerHTML = "$24 / month";
+    document.getElementById("4price").innerHTML = "$32 / month";
+    document.getElementById("5price").innerHTML = "$40 / month";
+    document.getElementById("6price").innerHTML = "$48 / month";
+    document.getElementById("7price").innerHTML = "$56 / month";
+    document.getElementById(".5unlimited").innerHTML = "Unlimited Slots";
+    document.getElementById("1unlimited").innerHTML =  "Unlimited Slots";
+    document.getElementById("2unlimited").innerHTML =  "Unlimited Slots";
+    document.getElementById("3unlimited").innerHTML =  "Unlimited Slots";
+    document.getElementById("4unlimited").innerHTML =  "Unlimited Slots";
+    document.getElementById("5unlimited").innerHTML =  "Unlimited Slots";
+    document.getElementById("6unlimited").innerHTML =  "Unlimited Slots";
+    document.getElementById("7unlimited").innerHTML =  "Unlimited Slots";
+    document.getElementById(".5support").innerHTML = "27/7 support + Mod Support";
+    document.getElementById("1support").innerHTML = "27/7 support + Mod Support";
+    document.getElementById("2support").innerHTML = "27/7 support + Mod Support";
+    document.getElementById("3support").innerHTML = "27/7 support + Mod Support";
+    document.getElementById("4support").innerHTML = "27/7 support + Mod Support";
+    document.getElementById("5support").innerHTML = "27/7 support + Mod Support";
+    document.getElementById("6support").innerHTML = "27/7 support + Mod Support";
+    document.getElementById("7support").innerHTML = "27/7 support + Mod Support";
+    
+    }
+</script>
+<script>
+function norm() {
+  document.getElementById("Standard").className =
+   document.getElementById("Standard").className.replace
+      ( "btn-default" , 'btn-primary' )
+        document.getElementById("Extreme").className =
+   document.getElementById("Extreme").className.replace
+      ( "btn-primary" , 'btn-default' )
+    document.getElementById(".5price").innerHTML = "$2 / month";
+    document.getElementById("1price").innerHTML = "$4 / month";
+    document.getElementById("2price").innerHTML = "$8 / month";
+    document.getElementById("3price").innerHTML = "$12 / month";
+    document.getElementById("4price").innerHTML = "$16 / month";
+    document.getElementById("5price").innerHTML = "$20 / month";
+    document.getElementById("6price").innerHTML = "$24 / month";
+    document.getElementById("7price").innerHTML = "$28 / month";
+    document.getElementById(".5unlimited").innerHTML = "6 Player Slots ";
+    document.getElementById("1unlimited").innerHTML =  "12 Player Slots ";
+    document.getElementById("2unlimited").innerHTML =  "24 Player Slots ";
+    document.getElementById("3unlimited").innerHTML =  "36 Player Slots ";
+    document.getElementById("4unlimited").innerHTML =  "40 Player Slots ";
+    document.getElementById("5unlimited").innerHTML =  "60 Player Slots ";
+    document.getElementById("6unlimited").innerHTML =  "72 Player Slots ";
+    document.getElementById("7unlimited").innerHTML =  "96 Player Slots ";
+    document.getElementById(".5support").innerHTML = "27/7 support";
+    document.getElementById("1support").innerHTML = "27/7 support";
+    document.getElementById("2support").innerHTML = "27/7 support";
+    document.getElementById("3support").innerHTML = "27/7 support";
+    document.getElementById("4support").innerHTML = "27/7 support";
+    document.getElementById("5support").innerHTML = "27/7 support";
+    document.getElementById("6support").innerHTML = "27/7 support";
+    document.getElementById("7support").innerHTML = "27/7 support";
+}
+</script>
+</div>
+</div>
+          <div class="container marketing">
+            <div class="container">
+	         <div class="row">
+    			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+				
+					<!-- PRICE ITEM -->
+					<div class="panel price panel-red">
+						<div class="panel-heading  text-center">
+						<h3>512MB RAM</h3>
+						</div>
+						<div class="panel-body text-center">
+							<p class="lead" style="font-size:40px" ><strong id=".5price">$2 / month</strong></p>
+						</div>
+						<ul class="list-group list-group-flush text-center">
+							<li class="list-group-item" id=".5unlimited"><i class="icon-ok text-danger"></i>6 Player Slots </li>
+							<li class="list-group-item"><i class="icon-ok text-danger"></i>Full FTP</li>
+							<li class="list-group-item" id=".5support" ><i class="icon-ok text-danger"></i>27/7 support</li>
+						</ul>
+						<div class="panel-footer">
+							<a class="btn btn-lg btn-block btn-primary" href="#">BUY NOW!</a>
+						</div>
+					</div>
+					<!-- /PRICE ITEM -->
+					
+					
+				</div>
+				
+				<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+				
+					<!-- PRICE ITEM -->
+					<div class="panel price panel-blue">
+						<div class="panel-heading arrow_box text-center">
+						<h3>1024MB RAM</h3>
+						</div>
+						<div class="panel-body text-center">
+							<p class="lead" style="font-size:40px"><strong  id="1price">$4 / month</strong></p>
+						</div>
+						<ul class="list-group list-group-flush text-center">
+							<li class="list-group-item" id="1unlimited"><i class="icon-ok text-info"></i>12 Player slots</li>
+							<li class="list-group-item"><i class="icon-ok text-danger"></i>Full FTP</li>
+							<li class="list-group-item" id="1support"><i class="icon-ok text-danger"></i>27/7 support</li>
+						</ul>
+						<div class="panel-footer">
+							<a class="btn btn-lg btn-block btn-primary" href="#">BUY NOW!</a>
+						</div>
+					</div>
+					<!-- /PRICE ITEM -->
+					
+					
+				</div>
+				
+				<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+				
+					<!-- PRICE ITEM -->
+					<div class="panel price panel-green">
+						<div class="panel-heading arrow_box text-center">
+						<h3>2048MB RAM</h3>
+						</div>
+						<div class="panel-body text-center">
+							<p class="lead" style="font-size:40px"><strong id="2price">$8 / month</strong></p>
+						</div>
+						<ul class="list-group list-group-flush text-center">
+							<li class="list-group-item" id="2unlimited"><i class="icon-ok text-success"></i>24 Player slots</li>
+							<li class="list-group-item"><i class="icon-ok text-danger"></i>Full FTP</li>
+							<li class="list-group-item" id="2support"><i class="icon-ok text-danger"></i>27/7 support</li>
+						</ul>
+						<div class="panel-footer">
+							<a class="btn btn-lg btn-block btn-primary" href="#">BUY NOW!</a>
+						</div>
+					</div>
+					<!-- /PRICE ITEM -->
+					
+					
+				</div>
+				
+				<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+				
+					<!-- PRICE ITEM -->
+					<div class="panel price panel-grey">
+						<div class="panel-heading arrow_box text-center">
+						<h3>3072MB RAM</h3>
+						</div>
+						<div class="panel-body text-center">
+							<p class="lead" style="font-size:40px"><strong id="3price">$12 / month</strong></p>
+						</div>
+						<ul class="list-group list-group-flush text-center">
+							<li class="list-group-item" id="3unlimited"><i class="icon-ok text-success"></i>36 Player slots</li>
+							<li class="list-group-item"><i class="icon-ok text-danger"></i>Full FTP</li>
+							<li class="list-group-item" id="3support"><i class="icon-ok text-danger"></i>27/7 support</li>
+						</ul>
+						<div class="panel-footer">
+							<a class="btn btn-lg btn-block btn-primary" href="#">BUY NOW!</a>
+						</div>
+					</div>
+					<!-- /PRICE ITEM -->
+					
+					
+				</div>
+				
+				<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+				
+					<!-- PRICE ITEM -->
+					<div class="panel price panel-white">
+						<div class="panel-heading arrow_box text-center">
+						<h3>4096MB RAM</h3>
+						</div>
+						<div class="panel-body text-center">
+							<p class="lead" style="font-size:40px" ><strong id="4price">$16 / month</strong></p>
+						</div>
+						<ul class="list-group list-group-flush text-center">
+							<li class="list-group-item" id="4unlimited"><i class="icon-ok text-success"></i>48 Player Slots</li>
+							<li class="list-group-item"><i class="icon-ok text-danger"></i>Full FTP</li>
+							<li class="list-group-item" id="4support"><i class="icon-ok text-danger"></i>27/7 support</li>
+						</ul>
+						<div class="panel-footer">
+							<a class="btn btn-lg btn-block btn-primary" href="#">BUY NOW!</a>
+						</div>
+					</div>
+					<!-- /PRICE ITEM -->
+					
+					
+				</div>
+				
+				<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+				
+					<!-- PRICE ITEM -->
+					<div class="panel price panel-white">
+						<div class="panel-heading arrow_box text-center">
+						<h3>5120MB RAM</h3>
+						</div>
+						<div class="panel-body text-center">
+							<p class="lead" style="font-size:40px"><strong id="5price">$20 / month</strong></p>
+						</div>
+						<ul class="list-group list-group-flush text-center">
+							<li class="list-group-item" id="5unlimited"><i class="icon-ok text-success"></i>60 Player slots</li>
+							<li class="list-group-item"><i class="icon-ok text-danger"></i>Full FTP</li>
+							<li class="list-group-item" id="5support"><i class="icon-ok text-danger"></i>27/7 support</li>
+						</ul>
+						<div class="panel-footer">
+							<a class="btn btn-lg btn-block btn-primary" href="#">BUY NOW!</a>
+						</div>
+					</div>
+					<!-- /PRICE ITEM -->
+					
+					
+				</div>
+				
+				<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+				
+					<!-- PRICE ITEM -->
+					<div class="panel price panel-white">
+						<div class="panel-heading arrow_box text-center">
+						<h3>7168MB RAM</h3>
+						</div>
+						<div class="panel-body text-center">
+							<p class="lead" style="font-size:40px"><strong  id="6price">$24 / month</strong></p>
+						</div>
+						<ul class="list-group list-group-flush text-center">
+							<li class="list-group-item" id="6unlimited"><i class="icon-ok text-success"></i>72 Player slots</li>
+							<li class="list-group-item"><i class="icon-ok text-danger"></i>Full FTP</li>
+							<li class="list-group-item" id="6support"><i class="icon-ok text-danger"></i>27/7 support</li>
+						</ul>
+						<div class="panel-footer">
+							<a class="btn btn-lg btn-block btn-primary" href="#">BUY NOW!</a>
+						</div>
+					</div>
+					<!-- /PRICE ITEM -->
+					
+					
+				</div>
+				
+					<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+				
+					<!-- PRICE ITEM -->
+					<div class="panel price panel-white">
+						<div class="panel-heading arrow_box text-center">
+						<h3>8192MB RAM</h3>
+						</div>
+						<div class="panel-body text-center">
+							<p class="lead" style="font-size:40px"><strong id="7price">$28 / month</strong></p>
+						</div>
+						<ul class="list-group list-group-flush text-center">
+							<li class="list-group-item" id="7unlimited"><i class="icon-ok text-success"></i>96 Player Slots</li>
+							<li class="list-group-item"><i class="icon-ok text-danger"></i>Full FTP</li>
+							<li class="list-group-item" id="7support"><i class="icon-ok text-danger"></i>27/7 support</li>
+						</ul>
+						<div class="panel-footer">
+							<a class="btn btn-lg btn-block btn-primary" href="#">BUY NOW!</a>
+						</div>
+					</div>
+					<!-- /PRICE ITEM -->
+					
+					
+				</div>
+				
+				
+			</div>
+            
+</div>
+            
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2015, Champion Servers LLC. &middot; <a href="#Privacy">Privacy</a> &middot; <a href="#Terms">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="js/vendor/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
