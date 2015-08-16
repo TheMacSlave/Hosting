@@ -10,7 +10,7 @@
 BACKGROUND COLORS
 ============================================================*/
 .db-bk-color-one {
-    background-color: #f55039;
+    background-color: #FFFFFF;
 }
 
 .db-bk-color-two {
@@ -18,11 +18,11 @@ BACKGROUND COLORS
 }
 
 .db-bk-color-three {
-    background-color: #47887E;
+    background-color: #FFFFFF;
 }
 
 .db-bk-color-six {
-    background-color: #F59B24;
+    background-color: #46A6F7;
 }
 /*============================================================
 PRICING STYLES
@@ -78,7 +78,7 @@ PRICING STYLES
         padding: 40px 20px 20px 20px;
         font-size: 60px;
         font-weight: 900;
-        color: #FFFFFF;
+        color: #000000;
     }
 
         .db-pricing-eleven .price small {
