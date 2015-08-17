@@ -34,6 +34,7 @@ PRICING STYLES
     color: #fff;
     background-color: rgba(0, 0, 0, .5);
     border-style: solid;
+    border-width: .2px;
     border: none;
     border-radius: 0px;
     -webkit-border-radius: 0px;
@@ -54,6 +55,7 @@ PRICING STYLES
     text-align: center;
     box-shadow: 0 0 5px rgba(0, 0, 0);
     border-style: solid .2px;
+    border-width: .2px;
     color: ##5a5a5a;
     line-height: 30px;
 }
@@ -79,6 +81,7 @@ PRICING STYLES
     .db-pricing-eleven .price {
         background-color: rgba(0, 0, 0);
         border-style: solid .2px;
+        border-width: .2px;
         padding: 40px 20px 20px 20px;
         font-size: 60px;
         font-weight: 900;
