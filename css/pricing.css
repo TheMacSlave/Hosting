@@ -32,7 +32,7 @@ PRICING STYLES
 }
 .db-button-color-square {
     color: #fff;
-    background-color: rgba(0, 0, 0);
+    background-color: rgba(0, 0, 0, .5);
     border-style: solid;
     border: none;
     border-radius: 0px;
@@ -42,7 +42,7 @@ PRICING STYLES
 
     .db-button-color-square:hover {
         color: #fff;
-        background-color: rgba(0, 0, 0, );
+        background-color: rgba(0, 0, 0, .5 );
         border-style: solid;
         border: none;
     }
@@ -53,7 +53,7 @@ PRICING STYLES
     margin-top: 50px;
     text-align: center;
     box-shadow: 0 0 5px rgba(0, 0, 0);
-    border-style: solid;
+    border-style: solid .2px;
     color: ##5a5a5a;
     line-height: 30px;
 }
@@ -78,7 +78,7 @@ PRICING STYLES
 
     .db-pricing-eleven .price {
         background-color: rgba(0, 0, 0);
-        border-style: solid;
+        border-style: solid .2px;
         padding: 40px 20px 20px 20px;
         font-size: 60px;
         font-weight: 900;
